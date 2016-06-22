@@ -1,0 +1,101 @@
+body {
+    background: url(../assets/images/japan.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Helvetica Neue';
+}
+
+.div-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(70, 72, 82, 0.1);
+}
+
+.app-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#center {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  color: white;
+  z-index: 100;
+  text-align: center;
+}
+
+#time {
+  display: block;
+  line-height: 160px;
+  font-size: 160px;
+  font-weight: 500;
+}
+
+#greeting {
+  display: block;
+  width: 100%;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+#links {
+  display: block;
+  box-sizing: border-box;
+  height: 60px;
+  width: 72.17px;
+  padding: 0 15px 0 20px;
+  vertical-align: middle;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  line-height: 60px;
+}
+
+#links:hover {
+  cursor: pointer;
+}
+
+#search {
+  display: block;
+  float: right;
+}
+
+.todobox {
+  position: absolute;
+  right: 5px;
+  bottom: 60px;
+  color: white;
+  background: black;
+  opacity: 1;
+}
+
+#bottom-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  height: 60px;
+  width: 72.83px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  line-height: 60px;
+}
